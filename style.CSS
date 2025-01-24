@@ -62,7 +62,7 @@
 
   h1 {
     width: 100%;
-    padding-top: 36px;
+    padding-top: 60px;
     margin-left: 24px;
   }
 
@@ -154,8 +154,41 @@ h2 {
   justify-content: center;
 }
 
+.features__lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.features__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  width: calc(100% / 3);
+  padding: 24px 32px;
+}
 
+.imgcontainer {
+  border: 2px solid rgb(229, 224, 224);
+  padding: 16px;
+  border-radius: 50px;
 
+}
+
+.textcontainer {
+  width: 100%;
+  text-align: left;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.textcontainer__para {
+  margin-top: 12px;
+  color: gray;
+  line-height: 1.8;
+}
 
 
