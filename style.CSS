@@ -48,6 +48,7 @@ section {
   }
   .row {
     width: 100%;
+  
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -120,6 +121,7 @@ section {
 button {
   background-color: blueviolet;
   color: white; 
+  width: 150px;
   
 }
 
@@ -245,7 +247,7 @@ span {
 }
 
 .hero-1 {
-  width: 50%;
+  width: 100%;
 }
 
 .qua_row {
@@ -255,11 +257,48 @@ span {
 }
  
 .qua_wrapper {
-  width: 45%;
+  width:100%;
+  display: flex;
 }
 
 .hero-1_wrapper {
+  padding: 80px;
   width: 180%;
 }
+
+.stp_container {
+  width: 100%;
+  
+}
+
+.stp_title {
+  padding: 0 0 100px;
+}
+
+
+.stp_title {
+  font-size: 16px;
+}
+
+.stp_wrapper_area {
+  width: 150%;
+  display: flex;
+}
+
+.hero-2 {
+  width: 100%;
+}
+
+.head_3 {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.stp_prescription-1,
+.stp_prescription-2,
+.stp_prescription-3 {
+  color: gray;
+}
+
 
 
