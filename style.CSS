@@ -291,14 +291,14 @@ span {
 
 .head_3 {
   width: 100%;
-  padding-top: 24px;
+  margin-top: -80px;
 }
 
-.stp_prescription-1,
-.stp_prescription-2,
-.stp_prescription-3 {
-  color: gray;
+.stp_prescription {
+  display: flex;
+  flex-direction: column;
 }
+
 
 
 
