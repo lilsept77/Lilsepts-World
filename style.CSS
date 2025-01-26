@@ -292,12 +292,20 @@ span {
 .head_3 {
   width: 100%;
   margin-top: -80px;
+  
 }
 
 .stp_prescription {
   display: flex;
   flex-direction: column;
 }
+
+.row_stp {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 
 
