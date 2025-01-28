@@ -173,8 +173,8 @@ button {
 }
 
 span {
-  font-weight: bold;
-  
+  font-weight:bolder;
+   
 }
 
 .para_2 {
@@ -271,43 +271,41 @@ span {
   
 }
 
-.stp_title {
-  padding: 0 0 100px;
-}
-
-
-.stp_title {
-  font-size: 16px;
-}
-
-.stp_wrapper_area {
-  width: 150%;
+.v_img--wrapper {
   display: flex;
 }
 
-.hero-2 {
-  width: 100%;
+.stp_num {
+  color: #acb0b4;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+ 
 }
 
-.head_3 {
-  width: 100%;
-  margin-top: -80px;
-  
-}
-
-.stp_prescription {
+.stp {
   display: flex;
-  
-  
+  padding-top: 24px;
+  line-height: 1.5;
 }
 
-.row_stp {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+.stp_description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
 }
 
+.v_container {
+  padding: 96px 0;
+}
 
+.v_row {
+  display: block;
+  unicode-bidi: isolate;
+}
 
-
+.v_img {
+  width: 50%;
+}
 
