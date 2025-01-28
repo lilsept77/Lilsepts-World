@@ -296,7 +296,7 @@ span {
   max-width: 320px;
 }
 
-.v_row {
+.stp_row {
   display: flex;
 }
 
@@ -304,10 +304,12 @@ span {
   padding: 96px 0;
 }
 
-.v_img {
-  width: 100%;
+.v_row {
+  display: flex;
 }
 
-
+.v_img {
+  width: 50%;
+}
 
 
