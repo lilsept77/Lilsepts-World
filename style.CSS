@@ -296,16 +296,18 @@ span {
   max-width: 320px;
 }
 
+.v_row {
+  display: flex;
+}
+
 .v_container {
   padding: 96px 0;
 }
 
-.v_row {
-  display: block;
-  unicode-bidi: isolate;
+.v_img {
+  width: 100%;
 }
 
-.v_img {
-  width: 50%;
-}
+
+
 
