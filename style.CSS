@@ -302,14 +302,39 @@ span {
 
 .v_container {
   padding: 96px 0;
+  display: flex;
 }
 
 .v_row {
   display: flex;
+  
 }
 
 .v_img {
-  width: 50%;
+  width: 100%;
+  
 }
 
+.v_description{
+  max-width: 50%;
+}
+
+.val_para {
+  padding-top: 36px;
+}
+
+.val_wrapper {
+  display: flex;
+}
+
+.v_para {
+  padding-top: 75px;
+ 
+}
+
+.v_title {
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+}
 
