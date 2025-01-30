@@ -4,10 +4,29 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Fusi', sans-serif ;
+}
+
+p {
+  font-size: 20px;
+ }
+
+.head {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
 }
 .para {
   line-height: 1.5;
+  
+}
+
+.f_para {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #838688;
 }
 
 h1 {
@@ -329,11 +348,37 @@ span {
 }
 
 .v_para {
-  padding: 75px;
+  padding: 24px;
+  padding-right: 15px;
 }
 
 .v_title {
   padding-top: 36px;
+}
+
+.p_container {
+  padding: 72px;
+}
+
+#price .p_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.p_row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+
+.p_para {
+  width: 40%;
+  display: flex;
   
 }
+
 
