@@ -68,13 +68,15 @@ section {
   }
 
   .nav_link {
-    border-bottom: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px;
   }
   
   .nav_link--list {
-    list-style-type: none;
     margin: 0 12px;
     gap: 40px;
+    list-style-type: none;
     font-size: 16px;
     position: relative;
     transition: all 300ms;
@@ -338,11 +340,15 @@ span {
 
 .stp_container {
   width: 100%;
-  
+  padding: 96px 0;
 }
 
 .v_img--wrapper {
   display: flex;
+}
+
+.stp_img {
+  width: 100%;
 }
 
 .stp_num {
@@ -419,11 +425,13 @@ span {
 }
 
 .p_container {
-  width: 100%;
+  padding: 96px 0;
 }
 
 .p_row {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .row {
   width: 100%;
@@ -643,7 +651,7 @@ width: 50%;
   padding: 96px 0;
   width: 85%;
   margin: 0 auto;
-  background: linear-gradient(rgb(100, 42, 225) 0%, white);
+  background: linear-gradient(rgb(100, 42, 225) 20%, rgb(255, 255, 255));
   border-radius: 8px;
   margin-bottom: 48px;
 }
@@ -771,11 +779,11 @@ a {
 }
 
 
-  .footer_copyright {
-    font-size: 14px;
-    text-align: center;
-    line-height: 1.5;
-    color: whitesmoke;
+.footer_copyright {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  color: whitesmoke;
 }
 
 .footer_btm {
@@ -793,10 +801,10 @@ a {
 
 .btn_menu {
   background-color: transparent;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   border: none;
-  color: #7342d6;
+  color:black;
   display: none;
   
 }
@@ -809,7 +817,6 @@ a {
   right: 0;
   bottom: 0;
   z-index: 100;
-
   justify-content: center;
   align-items: center;
   transition: all 300ms ease;
@@ -824,6 +831,7 @@ a {
 
 .menu--open {
   max-height: 100vh;
+  
   overflow-y: hidden;
 }
 
@@ -831,14 +839,16 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style-type: none;
 }
 .menu_list {
   padding: 12px 0;
 }
 
 .menu_link {
-  font-size: 40px;
+  font-size: 24px;
   color: black;
+  
 }
 
 .btn_menu--close {
@@ -847,6 +857,15 @@ a {
   top: 10px;
   padding: 8px;
   color: black;
+}
+
+@media (max-width: 1024px) {
+
+.btn_menu {
+  display: block;
+  }
+
+
 }
 
 
