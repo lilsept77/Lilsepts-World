@@ -454,15 +454,18 @@ span {
 
 .plans {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  /* justify-content: space-between;
   width: 100%;
   position: relative;
-  z-index: 100;
+  z-index: 100; */
 }
 
 .plan {
-  padding: 25px;
-  margin: 0 24px;
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
 }
 
 .plan_head--p {
@@ -725,11 +728,10 @@ footer {
 }
 
 .footer_column {
-  margin-top: 48px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  z-index: 2
+  align-items: center;
+  width: calc(100%/5);
 }
 
 .footer_column--title {
