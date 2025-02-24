@@ -862,6 +862,11 @@ a {
   color: black;
 }
 
+.footer_btm {
+  width: 100%;
+ 
+}
+
 @media (max-width: 1024px) {
 
 .btn_menu {
@@ -872,6 +877,22 @@ a {
     visibility: hidden;
   }
 
+}
+
+@media (max-width: 428px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  
+  @media (max-width: 428px) {
+  .footer_columns,
+  .footer_btm {
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    }
 }
 
 
